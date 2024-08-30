@@ -1,0 +1,84 @@
+:root{
+    --maxWidth: 980px;
+    --mainColor: #616161
+}
+.bg-img-header{
+    background-image: url('../images/header_parallax1.jpg');
+}
+.bg-img-second{
+    background-image: url('../images/parallax2.jpg');
+}
+.bg-img-third{
+    background-image: url('../images/parallax3.jpg');
+}
+.bg-style-header,.bg-style-second,.bg-style-third{
+    min-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-height{
+    height: 35px;
+}
+.progress-bar{
+    background-color: var(--mainColor);
+}
+.myWork-img-hover:hover{
+    opacity: 0.75;
+}
+.footer-icon{
+    color: white; font-size: 24px;
+}
+.f-hover:hover{
+    opacity: 1 !important;
+}
+.f-powered-by:hover{
+    color: aqua !important;
+    cursor: pointer;
+}
+.custom-input:focus {
+    border: 2px solid black;
+    box-shadow: none;
+}
+.link-hover:hover{
+    background-color: #ccc;
+    color:black !important
+}
+.search-hover:hover{
+    background-color: red;
+}
+.navbar-nav .py-1{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+.navbar-nav{
+    --bs-nav-link-hover-color: black;
+}
+.navbar-toggler{       
+    padding: 10px 24px; margin-left: -12px;
+    border: none;
+    border-radius: 0;
+}
+.navbar-toggler:hover{
+    color: white;
+    background-color: black;
+    padding: 10px 24px; margin-left: -12px;
+    border: none;
+    border-radius: 0;
+}
+.navbar{
+    --bs-navbar-padding-y: -0.5rem;
+}
+.btn-dark{
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #ccc;
+    --bs-btn-hover-border-color: #ccc;        
+}
+.error-message{
+    color:red
+}
+
